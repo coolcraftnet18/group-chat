@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  background: #ebebeb url("/images/gradient.jpg") repeat-x left top;
+}
+
+div { padding:0; margin:0; }
+p { margin: 0 0 8px 0; line-height: 140%; }
+h1, h2, h3, h4, h5 { margin: 5px 0; }
+a { color: #444; }
+a:visited { color: #888; }
+a:hover { color: #000; }
+li { line-height: 120%; margin-bottom: 8px; }
+
+#page { width: 90%; margin: auto; }
+
+#page-heading {
+  border-bottom: 2px solid black;
+  padding-bottom: 4px;
+  position: relative;
+  width: 100%;
+}
+
+#error {
+  background: yellow;
+  color: red;
+}
+
+input[type=button], input[type=submit] {
+  font-size: 100%;
+  margin-left: 5px;
+}
+
+/* Room List */
+.room-list li {
+  cursor: pointer;
+}
+
+.room-list li.selected {
+  font-weight: bold;
+}
+
+/* Room chat */
+.message {
+  background: white;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.message .user {
+  color: red;
+}
+
+.message .when {
+  text-align: right;
+  color: gray;
+}
